@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>This is my 2nd page off the index</title>
+</head>
+
+    <body>
+        <!--Divs are insanely useful for literally anything in HTML and they are used over P tags just for the simple reason that they CAN be nested and P tags CANNOT.-->
+        <div>1 div here</div>
+        <div>2nd div here</div>
+
+        <h4>Unordered Lists</h4>
+        <ul>
+            <li>Food</li>
+            <li>Plants</li>
+            <li>Coffee</li>
+        </ul>
+
+        <h4>Ordered Lists</h4>
+        <ol>
+            <li>Fried Chicken</li>
+            <li>Burritos</li>
+            <li>Salads</li>
+        </ol>
+
+        <!--This is a good example of how tables in HTML work. Colspan and Rowspan are very useful subcommands for designing the table to fit your needs quickly, just remember to remove the cells that will be in the way.-->
+        <h4>My Table</h4>
+
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                    <th>Column 4</th>
+                </tr>
+            </thead>
+            <tr>
+                <td colspan="2">Row 1 Cell 1</td>
+                <td>Row 1 Cell 3</td>
+                <td>Row 1 Cell 4</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell 1</td>
+                <td>Row 2 Cell 2</td>
+                <td colspan="2">Row 2 Cell 3</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="2">Row 3 Cell 1</td>
+                <td>Row 3 Cell 3</td>
+                <td>Row 3 Cell 4</td>
+            </tr>
+            <tr>
+                <td>Row 4 Cell 3</td>
+                <td>Row 4 Cell 4</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <th>Footer 1</th>
+                    <th>Footer 2</th>
+                    <th>Footer 3</th>
+                    <th>Footer 4</th>
+                </tr>
+            </tfoot>
+        </table>
+
+
+        <!--Use this link to go home!-->
+        <h5>Hit this link to go to my next page!</h5>
+        <a href="index.html">Go to home</a>
+
+    </body>
+</html>
