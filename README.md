@@ -1,2 +1,2 @@
-# skillshare-first-web-page
-this is my first webpage to the world
+# My First Test Page
+This is my first web page that I will use for learning different things for any part of web development. I can always come back to this and use the in-code notes I have written to remind myself on how to accomplish different feats when I need to or just to have something to write down and break if need be! I hope that one day I can look back on this first foray into web dev and see how far I have come!
