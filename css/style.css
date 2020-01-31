@@ -1,0 +1,18 @@
+body {
+    background-color: wheat;
+}
+
+h1 {
+    background-color: darkcyan;
+    color: darkorange;
+
+}
+.font-orange {
+    color: orangered;
+}
+#unique {
+    border: 5px solid burlywood;
+}
+.bg-black {
+    background-color: black;
+}
