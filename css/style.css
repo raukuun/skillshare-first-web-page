@@ -1,7 +1,9 @@
 body {
     background-color: wheat;
 }
-
+img {
+    border: 1px solid grey;
+}
 h1 {
     background-color: darkcyan;
     color: darkorange;
